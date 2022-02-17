@@ -1,0 +1,34 @@
+{
+    "accounts":[
+        {
+            "comments":"Verify login fail with invalid username and invalid password",
+            "id":1,
+            "username": "thaitruong123@gmail.com",
+            "password": "asd@123123",
+            "message": "Epic sadface: Username and password do not match any user in this service"
+        },
+        {
+            "comments":"Verify login fail with valid username and invalid password",
+            "id":1,
+            "username": "thaitruong@gmail.com",
+            "password": "asd@123123",
+            "message": "Epic sadface: Username and password do not match any user in this service"
+
+        },
+        {
+            "comments":"Verify login fail with invalid username and valid password",
+            "id":1,
+            "username": "thaitruong123@gmail.com",
+            "password": "Asd@123",
+            "message": "Epic sadface: Username and password do not match any user in this service"
+
+        },
+        {
+            "comments":"Verify login fail with valid username and valid password",
+            "id":1,
+            "username": "thaitruong@gmail.com",
+            "password": "Asd@123"
+        }
+
+    ]
+}
